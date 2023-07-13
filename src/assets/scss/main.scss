@@ -64,10 +64,37 @@ header {
                 justify-content: center;
                 width: calc(100% / 5);
                 img{
-                 width: 20%;
-                 padding: 5px;
+                width: 20%;
+                padding: 5px;
           }
          }
      }
+    }
+ }
+//  Footer 
+
+ footer {
+    background-image: url('./assets/img/footer-bg.jpg');
+    .row {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+       .col {
+           list-style: none;
+           text-decoration: none;
+             
+            h3 {
+                color: white;
+            }
+            a {
+                display: block;
+                text-decoration: none;
+                color: #656565;
+            }
+        }
+    }
+    .row:nth-child(2) {
+        display: flex;
     }
  }

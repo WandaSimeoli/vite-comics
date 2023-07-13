@@ -59,7 +59,28 @@ export default {
     </div>
   </section>
  </main>
- <footer class="debug"></footer>
+ <footer class="debug">
+  <div class="container">
+    <div class="row">
+      <div class="col"><h3>DC COMICS</h3>
+        <a href="">  Characters </a>
+        <a href=""> Comics </a>
+        <a href=""> Movies </a>
+        <a href=""> TV </a>
+        <a href=""> Games </a>
+        <a href=""> Videos </a>
+        <a href=""> News </a>
+      <h3>SHOP</h3>
+        <a href="">Shop DC </a>
+        <a href="">Shop DC Collectibles </a>
+      </div>
+        <div class="col">
+        <img src="./assets/img/dc-logo-bg.png" alt="">
+      </div>
+     
+    </div>
+  </div>
+ </footer>
 </template>
 
 <style lang="scss" scoped>
