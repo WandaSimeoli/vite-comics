@@ -13,11 +13,16 @@
     border: 1px dashed black;
     min-height: 20px;
 }
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
 
 // Header 
 header {
 
     padding: 20px;
+
     .row {
         display: flex;
         justify-content: space-between;
@@ -25,7 +30,7 @@ header {
          ul a li {
            list-style: none;
            display: inline-block; 
-           padding: 10px;
+           padding: 15px;
            text-transform: uppercase;
            text-decoration: none;
            color: black;
@@ -33,3 +38,36 @@ header {
     }
 }
 // Main
+ main {
+    section:first-child {
+        background-color: black;
+        color: white;
+        height: 80px;
+        font-size: larger;
+        font-weight: bold;
+        padding: 15px;
+    }
+    section:nth-child(2) {
+        background-color: #0282F9;
+        color: white;
+        padding: 20px;
+        height: 100px;
+
+             .row {
+            display: flex;
+            justify-content: center;
+
+            .col {
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+                justify-content: center;
+                width: calc(100% / 5);
+                img{
+                 width: 20%;
+                 padding: 5px;
+          }
+         }
+     }
+    }
+ }
