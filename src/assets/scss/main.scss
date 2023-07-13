@@ -1,1 +1,35 @@
 @use './partials/variables' as *;
+
+// General
+
+* > {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.debug {
+    border: 1px dashed black;
+    min-height: 20px;
+}
+
+// Header 
+header {
+
+    padding: 20px;
+    .row {
+        display: flex;
+        justify-content: space-between;
+
+         ul a li {
+           list-style: none;
+           display: inline-block; 
+           padding: 10px;
+           text-transform: uppercase;
+           text-decoration: none;
+           color: black;
+        }
+    }
+}
+// Main
