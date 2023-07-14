@@ -62,24 +62,41 @@ export default {
  <footer class="debug">
   <div class="container">
     <div class="row">
-      <div class="col"><h3>DC COMICS</h3>
-        <a href="">  Characters </a>
-        <a href=""> Comics </a>
-        <a href=""> Movies </a>
-        <a href=""> TV </a>
-        <a href=""> Games </a>
-        <a href=""> Videos </a>
-        <a href=""> News </a>
-      <h3>SHOP</h3>
-        <a href="">Shop DC </a>
-        <a href="">Shop DC Collectibles </a>
-      </div>
-        <div class="col">
-        <img src="./assets/img/dc-logo-bg.png" alt="">
-      </div>
-     
+      <div class="col">
+            <ul>DC COMICS
+            <a href=""> <li>  Characters </li> </a>
+            <a href=""> <li> Comics </li></a>
+           <a href="">  <li>Movies </li></a>
+            <a href=""> <li> TV </li></a>
+            <a href=""> <li> Games </li></a>
+            <a href=""> <li> Videos</li> </a>
+            <a href=""> <li> News </li></a>
+          </ul>
+            <ul>SHOP
+            <a href=""> <li>Shop DC </li></a>
+             <a href=""> <li>Shop DC Collectibles </li></a> 
+            </ul>   
+        </div>
+        <div class="col-2"></div> 
     </div>
   </div>
+  <section class="debug">
+    <div class="container ">
+      <div class="row">
+        <div class="col">
+          <button>Sign up now!</button>
+        </div>
+        <div class="col-3">
+          <h3>Follow us</h3>
+          <img src="./assets/img/footer-facebook.png" alt="">
+          <img src="./assets/img/footer-twitter.png" alt="">
+          <img src="./assets/img/footer-youtube.png" alt="">
+          <img src="./assets/img/footer-pinterest.png" alt="">
+          <img src="./assets/img/footer-facebook.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
  </footer>
 </template>
 

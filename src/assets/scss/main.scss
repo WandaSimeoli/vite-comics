@@ -2,16 +2,17 @@
 
 // General
 
-* > {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
+   
 }
 
 .debug {
     border: 1px dashed black;
-    min-height: 20px;
+    // min-height: 20px;
 }
 .container {
     margin: 0 auto;
@@ -34,6 +35,7 @@ header {
            text-transform: uppercase;
            text-decoration: none;
            color: black;
+         
         }
     }
 }
@@ -75,26 +77,59 @@ header {
 
  footer {
     background-image: url('./assets/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     .row {
         display: flex;
-        justify-content: space-between;
-        flex-direction: column;
+        justify-content: space-between; 
 
-       .col {
-           list-style: none;
-           text-decoration: none;
-             
-            h3 {
-                color: white;
-            }
-            a {
-                display: block;
+        .col {
+            color: white;
+            padding: 20px;
+
+            ul a {
                 text-decoration: none;
-                color: #656565;
+                li  {
+                    color: #797979;
+                        list-style: none;
+                        line-height: 10px;
+                        margin: 10px;
+                }
             }
+            
+        }
+        .col-2 {
+            background-image: url('./assets/img/dc-logo-bg.png');
+            background-repeat: no-repeat;
+            width: 600px;
+            height: 500px;
+            margin-top: -50px;
         }
     }
-    .row:nth-child(2) {
-        display: flex;
+  
+    section {
+        background-color: #303030;
+        .row {
+            display: flex;
+
+            button {
+                padding: 10px;
+                border-color: #0282F9;
+                    background-color: transparent;
+                    color: white;
+                    text-transform: uppercase;
+            }
+            .col-3 {
+                display: flex;
+                align-items: center;
+                h3 {
+                    color: #0282F9;
+                    text-transform: uppercase;
+                }
+                img {
+                   margin: 5px;
+                }
+            }
+        }
     }
  }
