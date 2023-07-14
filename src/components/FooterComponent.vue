@@ -5,12 +5,15 @@ export default {
 
   },
   data() {
-    return {  }
+   return {
+    List : ['Terms of use', 'Privacy policy', 'Ad choices', 'Advertising', 'Jobs', 'Subscriptions', 'CPSC certificates', 'Ratings', 'Shop help', 'Contact us'],
+    secondList : ['DC', 'Mad magazine', 'DC kids', 'DC universe', 'DC power visa']
+}
+
   },
   methods: {}
 }
 </script>
-
 <template>
  <footer>
   <div class="container">
@@ -28,8 +31,22 @@ export default {
             <ul>SHOP
             <a href=""> <li>Shop DC </li></a>
              <a href=""> <li>Shop DC Collectibles </li></a> 
-            </ul>   
+            </ul>  
         </div>
+            <div class="col">
+                <ul> DC
+                    <a href="">
+                        <li v-for="singleLi in List">{{ singleLi }}</li>
+                    </a>
+                </ul> 
+            </div> 
+            <div class="col">
+                <ul> SITES
+                    <a href="">
+                        <li v-for="secondLi in secondList">{{ secondLi }}</li>
+                    </a>
+                </ul> 
+            </div>       
         <div class="col-2"></div> 
     </div>
   </div>

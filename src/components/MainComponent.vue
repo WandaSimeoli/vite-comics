@@ -14,11 +14,6 @@ export default {
 <template>
  <main>
   <section>
-    <div class="container ">
-    <div> &#11122; Content goes here &#11120;</div>
-  </div>
-  </section>
-  <section>
     <div class="container">
       <div class="row">
         <div class="col">
@@ -30,7 +25,7 @@ export default {
         <div class="col">
           <img src="../assets/img/buy-comics-shop-locator.png" alt="">Comic Shop Locator</div>
         <div class="col">
-          <img src="../assets/img/buy-dc-power-visa.svg" alt="">DC Power Visa</div>
+          <img src="./assets/img/buy-dc-power-visa.svg" alt="">DC Power Visa</div>
       </div>
     </div>
   </section>
@@ -40,15 +35,8 @@ export default {
 <style lang="scss" scoped>
 // Main
 main {
-    section:first-child {
-        background-color: black;
-        color: white;
-        height: 80px;
-        font-size: larger;
-        font-weight: bold;
-        padding: 15px;
-    }
-    section:nth-child(2) {
+   
+    section {
         background-color: #0282F9;
         color: white;
         padding: 20px;
