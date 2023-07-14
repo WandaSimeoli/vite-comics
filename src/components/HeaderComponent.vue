@@ -42,7 +42,7 @@ export default {
 // Header 
 header {
 
-padding: 20px;
+    padding: 20px;
 
 .row {
     display: flex;
@@ -57,6 +57,11 @@ padding: 20px;
        color: black;
      
     }
+    
+    li:hover  {
+       color: #0282F9;
+       border-bottom: 1px solid  #0282F9;
+      }
 }
 }
 </style>

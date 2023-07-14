@@ -94,6 +94,8 @@ export default {
         :cardTitle="card.series"/> 
     </div>
   </div>
+  <div class="current">Current Series</div>
+  <button>Load more</button>
   </section>
   <section id="section">
     <div class="container">
@@ -120,10 +122,31 @@ main {
 
     .my-section {
         background-color: black;
+        position: relative;
         .cards{
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+        }
+
+        .current {
+            position: absolute;
+            top: -20px;
+            left: 50px;
+            padding: 10px;
+            background-color: #0282F9;
+            border: 1px solid black;
+            color: white;
+            text-transform: uppercase;
+        }
+        button {
+            padding: 10px;
+            background-color: #0282F9;
+            border: 1px solid black;
+            color: white;
+            text-transform: uppercase;
+            margin: 20px;
+            margin-left: 700px;
         }
     }
    
