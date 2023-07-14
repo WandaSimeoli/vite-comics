@@ -1,13 +1,13 @@
 <script>
 // my-component.js
 import HeaderComponent from "./components/HeaderComponent.vue";
-import ImgCardComponent from "./components/ImgCardComponent.vue";
+import CardComponent from "./components/CardComponent.vue";
 import MainComponent from "./components/MainComponent.vue";
 import FooterComponent from "./components/FooterComponent.vue";
 export default {
   components :{
     HeaderComponent,
-    ImgCardComponent,
+    CardComponent,
     MainComponent,
     FooterComponent,
   },
@@ -20,7 +20,7 @@ export default {
 
 <template>
 <HeaderComponent/>
-<ImgCardComponent/>
+<CardComponent/>
 <MainComponent/>
 <FooterComponent/>
 
